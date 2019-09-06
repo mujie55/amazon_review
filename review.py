@@ -21,3 +21,11 @@ for d in data:
 print('留言长度小于100的一共有', len(new), '条')
 print(new[0])
 print(new[1])
+
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('留言里面有good的有', len(good), '条')
+print(good[0])
+print(good[1])
