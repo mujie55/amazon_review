@@ -29,3 +29,6 @@ for d in data:
 print('留言里面有good的有', len(good), '条')
 print(good[0])
 print(good[1])
+
+bad = [d for d in data if 'bad' in d]
+print('留言中有提到bad的有', len(d), '条')
